@@ -1,0 +1,125 @@
+@charset "UTF=8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    ::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+        
+    }
+    
+
+#cabecalho {
+    background-color: #669973;
+    padding: 70px;
+    text-align: right;
+    border-radius: 3px;
+    background-image: url('poesia-.jpg');
+    background-size: cover; /* Use "cover" para ajustar a imagem ao tamanho do cabeçalho */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    position: relative;
+   max-width: auto;
+   background-attachment: fixed;
+   box-shadow: #ff9a4d salmon;
+
+   
+    
+
+}
+
+.menu{
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    right: 20px;
+    
+
+}
+@media screen and (max-width: 720px){
+    .menu{
+        position: absolute;
+        
+        top: 60;
+        
+    }
+}
+.menu ul {
+text-align: right;
+text-align: right 20px;
+
+padding: 0;
+position: relative;
+max-width: 720px;
+
+}
+.menu li{
+    display: inline;
+    padding-left: 10px;
+    margin-right: 15px;
+    font-size: 15pt;
+    color: white;
+    
+
+
+}
+.menu a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.menu a:hover{
+    color:#ff9a4d;
+    background-color: rgb(255, 115, 0);
+    padding: 5px;
+    border-radius: 2px;
+    transition: 2ms;
+    cursor: pointer;
+}
+main{
+    margin-left: 10px;
+    text-align: justify;
+    margin-top: 20px;
+    width: 100%;
+}
+@media screen and (max-width: 720px){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 720px){
+    header{
+        font-size: 14px;
+    }
+}
+#foto_login{
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    right: 250px;
+    border: 3px transparent;
+    transition: border-color 0.3s;
+    
+
+    
+}
+a:hover a img{
+   
+    color:white
+    
+}
+main{
+    text-align: justify;
+    background-color: #ffa96218;
+    margin: auto;
+    line-height: 1.5;
+    
+    margin-right: 5px;
+    font-size: small 12pt;
+}
+p{
+    text-align: justify;
+}

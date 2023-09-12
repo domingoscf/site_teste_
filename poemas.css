@@ -1,0 +1,66 @@
+/* Estilos para a lista ordenada (ol) */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Estilos para os itens de lista (li) */
+li {
+    margin: 20px 0;
+}
+
+/* Estilos para os títulos dos poemas */
+strong {
+    font-size: 1.2em;
+    color: rgb(255, 115, 0); /* Cor laranja para os títulos */
+}
+
+/* Estilos para os versos dos poemas */
+br {
+    margin-top: 10px;
+    content: "\00a0"; /* Espaçamento entre versos */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Estilos para a página de login */
+#foto_login {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 115, 0); /* Cor laranja para a borda */
+    border-radius: 50%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#foto_login:hover {
+    border-color: #ff3300; /* Cor laranja mais escura no hover */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(255, 115, 0); /* Cor laranja para o cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para o main */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
